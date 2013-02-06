@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Image Include="Assets\Logo.png">
+      <Filter>etc\Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallLogo.png">
+      <Filter>etc\Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>etc\Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.png">
+      <Filter>etc\Assets</Filter>
+    </Image>
+    <Filter Include="include">
+      <UniqueIdentifier>{d9ea1749-05c7-48d3-86e5-977d2e0695b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="etc">
+      <UniqueIdentifier>{c8284907-eb63-4144-ba30-c8b09b2f6252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="etc\Assets">
+      <UniqueIdentifier>f96c0d63-cde2-4d36-a60b-de347a881062</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <Filter>etc</Filter>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="test_on_dev_TemporaryKey.pfx">
+      <Filter>etc</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\main.cpp">
+      <Filter>include</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

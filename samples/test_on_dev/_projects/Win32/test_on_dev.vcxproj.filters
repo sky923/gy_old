@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{e2dd34f1-b02c-4691-8fc8-d3845b78d3c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="etc">
+      <UniqueIdentifier>{392ffa9c-e6c2-4418-b62f-07acdc258309}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\GLES2_Shader.vsh">
+      <Filter>etc</Filter>
+    </None>
+    <None Include="..\..\GLES2_Shader.fsh">
+      <Filter>etc</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_on_dev", "test_on_dev.vcxproj", "{2F5BF490-FC66-4942-8CC0-7CCD3123FDB1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1BFF0DFA-070C-49E2-B189-1E352DA952CA} = {1BFF0DFA-070C-49E2-B189-1E352DA952CA}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gy", "..\..\..\..\gy\_projects\WinPhone\gy.vcxproj", "{1BFF0DFA-070C-49E2-B189-1E352DA952CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|Win32 = Debug|Win32
+		Release|ARM = Release|ARM
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F5BF490-FC66-4942-8CC0-7CCD3123FDB1}.Debug|ARM.ActiveCfg = Debug|ARM
+		{2F5BF490-FC66-4942-8CC0-7CCD3123FDB1}.Debug|ARM.Build.0 = Debug|ARM
+		{2F5BF490-FC66-4942-8CC0-7CCD3123FDB1}.Debug|ARM.Deploy.0 = Debug|ARM
+		{2F5BF490-FC66-4942-8CC0-7CCD3123FDB1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2F5BF490-FC66-4942-8CC0-7CCD3123FDB1}.Debug|Win32.Build.0 = Debug|Win32
+		{2F5BF490-FC66-4942-8CC0-7CCD3123FDB1}.Debug|Win32.Deploy.0 = Debug|Win32
+		{2F5BF490-FC66-4942-8CC0-7CCD3123FDB1}.Release|ARM.ActiveCfg = Release|ARM
+		{2F5BF490-FC66-4942-8CC0-7CCD3123FDB1}.Release|ARM.Build.0 = Release|ARM
+		{2F5BF490-FC66-4942-8CC0-7CCD3123FDB1}.Release|ARM.Deploy.0 = Release|ARM
+		{2F5BF490-FC66-4942-8CC0-7CCD3123FDB1}.Release|Win32.ActiveCfg = Release|Win32
+		{2F5BF490-FC66-4942-8CC0-7CCD3123FDB1}.Release|Win32.Build.0 = Release|Win32
+		{2F5BF490-FC66-4942-8CC0-7CCD3123FDB1}.Release|Win32.Deploy.0 = Release|Win32
+		{1BFF0DFA-070C-49E2-B189-1E352DA952CA}.Debug|ARM.ActiveCfg = Debug|ARM
+		{1BFF0DFA-070C-49E2-B189-1E352DA952CA}.Debug|ARM.Build.0 = Debug|ARM
+		{1BFF0DFA-070C-49E2-B189-1E352DA952CA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1BFF0DFA-070C-49E2-B189-1E352DA952CA}.Debug|Win32.Build.0 = Debug|Win32
+		{1BFF0DFA-070C-49E2-B189-1E352DA952CA}.Release|ARM.ActiveCfg = Release|ARM
+		{1BFF0DFA-070C-49E2-B189-1E352DA952CA}.Release|ARM.Build.0 = Release|ARM
+		{1BFF0DFA-070C-49E2-B189-1E352DA952CA}.Release|Win32.ActiveCfg = Release|Win32
+		{1BFF0DFA-070C-49E2-B189-1E352DA952CA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

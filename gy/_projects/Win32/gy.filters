@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{3d6a4fd9-dae9-4e92-8245-c8034bdbe6fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\pil">
+      <UniqueIdentifier>{0d6f555d-e60f-4470-827a-b22b26275a00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\pil\glm">
+      <UniqueIdentifier>{4136beaa-618f-4f1d-b099-b89b996e75c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\pil\glew">
+      <UniqueIdentifier>{2d3d0ca8-88e0-4f86-9826-7fc0d515df23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\pil\soil">
+      <UniqueIdentifier>{e8a41ec2-772f-4283-a7df-2d52e4bdec68}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\gy.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gyMain.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pil\gyView.h">
+      <Filter>include\pil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pil\gyViewWindowsProcedure.h">
+      <Filter>include\pil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pil\gyAtomicDataType.h">
+      <Filter>include\pil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pil\gyDefaultDefinition.h">
+      <Filter>include\pil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pil\gyInput.h">
+      <Filter>include\pil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pil\gyMainCore.h">
+      <Filter>include\pil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pil\gyMath.h">
+      <Filter>include\pil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pil\gyPIL.h">
+      <Filter>include\pil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pil\gyPlatformDetection.h">
+      <Filter>include\pil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pil\gyRenderer.h">
+      <Filter>include\pil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pil\soil\stb_image_aug.h">
+      <Filter>include\pil\soil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pil\soil\stbi_DDS_aug.h">
+      <Filter>include\pil\soil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pil\soil\stbi_DDS_aug_c.h">
+      <Filter>include\pil\soil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pil\soil\image_DXT.h">
+      <Filter>include\pil\soil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pil\soil\image_helper.h">
+      <Filter>include\pil\soil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pil\soil\SOIL.h">
+      <Filter>include\pil\soil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pil\glm\ext.hpp">
+      <Filter>include\pil\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pil\glm\glm.hpp">
+      <Filter>include\pil\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pil\glew\glew.h">
+      <Filter>include\pil\glew</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pil\glew\wglew.h">
+      <Filter>include\pil\glew</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\gyMain.cpp">
+      <Filter>include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pil\gyRendererWindows.cpp">
+      <Filter>include\pil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pil\gyViewWindows.cpp">
+      <Filter>include\pil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pil\gyViewWindowsProcedure.cpp">
+      <Filter>include\pil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pil\gyInput.cpp">
+      <Filter>include\pil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pil\gyInputWindows.cpp">
+      <Filter>include\pil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pil\gyMainCore.cpp">
+      <Filter>include\pil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pil\gyRenderer.cpp">
+      <Filter>include\pil</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
