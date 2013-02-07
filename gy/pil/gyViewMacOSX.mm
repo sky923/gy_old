@@ -53,10 +53,10 @@ namespace gy
 		
 		NSScreen *mainScreen = [NSScreen mainScreen];
 		NSRect appRect = [mainScreen frame];
-		NSRect rect = NSMakeRect(posX == Default ? 100 : posX
-								 , posY == Default ? appRect.size.height - 100 - height : appRect.size.height - posY - height
-								 , width == Default ? 320 : width
-								 , height == Default ? 240 : height);
+		NSRect rect = NSMakeRect(posX == _Default ? 100 : posX
+								 , posY == _Default ? appRect.size.height - 100 - height : appRect.size.height - posY - height
+								 , width == _Default ? 320 : width
+								 , height == _Default ? 240 : height);
 		unsigned style = NSBorderlessWindowMask
 			| NSTitledWindowMask
 			| NSClosableWindowMask

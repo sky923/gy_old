@@ -445,7 +445,6 @@ namespace gy
 		using glm::transpose;
 		using glm::distance;
 		using glm::distance2;
-		using glm::distance4;
 		using glm::fastAcos;
 		using glm::fastAsin;
 		using glm::fastAtan;
@@ -457,9 +456,7 @@ namespace gy
 		using glm::fastExp2;
 		using glm::fastSqrt;
 		using glm::fastInverseSqrt;
-		using glm::fastInversesqrt;
 		using glm::fastLength;
-		using glm::fastLength4;
 		using glm::fastLn;
 		using glm::fastLog;
 		using glm::fastLog2;

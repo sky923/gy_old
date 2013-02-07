@@ -10,6 +10,8 @@ namespace gy
 		_renderer_object_t renderer_objects[MAX_RENDERER_CONTEXT] = {{NullPtr},};
 		size_t current_renderer_id = GY_INVALID_RENDERER_ID;
 
+        bool isValid();
+        bool isValid(renderer_t rid);
 		renderer_t getAllocableID()
 		{
 			for (size_t i = 0; i < MAX_RENDERER_CONTEXT; ++i)

@@ -20,7 +20,7 @@
 }
 -(void) windowShouldClose:(id)sender
 {
-	if (sender == gy::getMainView())
+	if (sender == (__bridge id)(gy::getMainView()))
 		[self terminate: self];
 }
 -(void) windowWillClose:(NSNotification *)aNotification
@@ -41,7 +41,7 @@
 	if (eventType == NSLeftMouseDown)
 	{
 		//[window isMainWindow];
-		if (gy::getMainView() == window)
+		if (gy::getMainView() == (__bridge view_t)(window))
 		{
 		}
 		
