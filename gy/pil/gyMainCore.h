@@ -73,10 +73,10 @@ using namespace Windows::Foundation;\
 int main(Platform::Array<Platform::String^> ^__arg) 
 #	define gyExecute() return gy::executeMain(__arg);
 #elif defined(__GY_OS_ENABLED_MACOSX__)
-#	define The_Main int main(size_t __argc, const char **__argv)
+#	define The_Main int main(int __argc, const char **__argv)
 #	define gyExecute() return gy::executeMain(__argc, __argv);
 #elif defined(__GY_OS_ENABLED_LINUX__)
-#	define The_Main int main(size_t __argc, const char **__argv)
+#	define The_Main int main(int __argc, const char **__argv)
 #	define gyExecute() return gy::executeMain(__argc, __argv);
 #endif
 #define Is_Here {gyExecute();}

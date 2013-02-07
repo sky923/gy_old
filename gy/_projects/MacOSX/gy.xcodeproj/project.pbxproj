@@ -20,13 +20,7 @@
 		21F416F616C411850016F736 /* gyDefaultDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F415E616C411850016F736 /* gyDefaultDefinition.h */; };
 		21F416F716C411850016F736 /* gyInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21F415E716C411850016F736 /* gyInput.cpp */; };
 		21F416F816C411850016F736 /* gyInput.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F415E816C411850016F736 /* gyInput.h */; };
-		21F416F916C411850016F736 /* gyInputAndroid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21F415E916C411850016F736 /* gyInputAndroid.cpp */; };
-		21F416FA16C411850016F736 /* gyInputiOS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21F415EA16C411850016F736 /* gyInputiOS.cpp */; };
-		21F416FB16C411850016F736 /* gyInputLinux.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21F415EB16C411850016F736 /* gyInputLinux.cpp */; };
 		21F416FC16C411850016F736 /* gyInputMacOSX.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21F415EC16C411850016F736 /* gyInputMacOSX.cpp */; };
-		21F416FD16C411850016F736 /* gyInputWindows.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21F415ED16C411850016F736 /* gyInputWindows.cpp */; };
-		21F416FE16C411850016F736 /* gyInputWindowsPhone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21F415EE16C411850016F736 /* gyInputWindowsPhone.cpp */; };
-		21F416FF16C411850016F736 /* gyInputWindowsStore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21F415EF16C411850016F736 /* gyInputWindowsStore.cpp */; };
 		21F4170016C411850016F736 /* gyMainCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21F415F016C411850016F736 /* gyMainCore.cpp */; };
 		21F4170116C411850016F736 /* gyMainCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F415F116C411850016F736 /* gyMainCore.h */; };
 		21F4170216C411850016F736 /* gyMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F415F216C411850016F736 /* gyMath.h */; };
@@ -59,13 +53,7 @@
 		21F415E616C411850016F736 /* gyDefaultDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gyDefaultDefinition.h; sourceTree = "<group>"; };
 		21F415E716C411850016F736 /* gyInput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gyInput.cpp; sourceTree = "<group>"; };
 		21F415E816C411850016F736 /* gyInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gyInput.h; sourceTree = "<group>"; };
-		21F415E916C411850016F736 /* gyInputAndroid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gyInputAndroid.cpp; sourceTree = "<group>"; };
-		21F415EA16C411850016F736 /* gyInputiOS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gyInputiOS.cpp; sourceTree = "<group>"; };
-		21F415EB16C411850016F736 /* gyInputLinux.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gyInputLinux.cpp; sourceTree = "<group>"; };
 		21F415EC16C411850016F736 /* gyInputMacOSX.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gyInputMacOSX.cpp; sourceTree = "<group>"; };
-		21F415ED16C411850016F736 /* gyInputWindows.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gyInputWindows.cpp; sourceTree = "<group>"; };
-		21F415EE16C411850016F736 /* gyInputWindowsPhone.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gyInputWindowsPhone.cpp; sourceTree = "<group>"; };
-		21F415EF16C411850016F736 /* gyInputWindowsStore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gyInputWindowsStore.cpp; sourceTree = "<group>"; };
 		21F415F016C411850016F736 /* gyMainCore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gyMainCore.cpp; sourceTree = "<group>"; };
 		21F415F116C411850016F736 /* gyMainCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gyMainCore.h; sourceTree = "<group>"; };
 		21F415F216C411850016F736 /* gyMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gyMath.h; sourceTree = "<group>"; };
@@ -124,13 +112,7 @@
 				21F415E616C411850016F736 /* gyDefaultDefinition.h */,
 				21F415E716C411850016F736 /* gyInput.cpp */,
 				21F415E816C411850016F736 /* gyInput.h */,
-				21F415E916C411850016F736 /* gyInputAndroid.cpp */,
-				21F415EA16C411850016F736 /* gyInputiOS.cpp */,
-				21F415EB16C411850016F736 /* gyInputLinux.cpp */,
 				21F415EC16C411850016F736 /* gyInputMacOSX.cpp */,
-				21F415ED16C411850016F736 /* gyInputWindows.cpp */,
-				21F415EE16C411850016F736 /* gyInputWindowsPhone.cpp */,
-				21F415EF16C411850016F736 /* gyInputWindowsStore.cpp */,
 				21F415F016C411850016F736 /* gyMainCore.cpp */,
 				21F415F116C411850016F736 /* gyMainCore.h */,
 				21F415F216C411850016F736 /* gyMath.h */,
@@ -268,13 +250,7 @@
 				21F4162116C411850016F736 /* gyMain.cpp in Sources */,
 				21F4162316C411850016F736 /* glew.c in Sources */,
 				21F416F716C411850016F736 /* gyInput.cpp in Sources */,
-				21F416F916C411850016F736 /* gyInputAndroid.cpp in Sources */,
-				21F416FA16C411850016F736 /* gyInputiOS.cpp in Sources */,
-				21F416FB16C411850016F736 /* gyInputLinux.cpp in Sources */,
 				21F416FC16C411850016F736 /* gyInputMacOSX.cpp in Sources */,
-				21F416FD16C411850016F736 /* gyInputWindows.cpp in Sources */,
-				21F416FE16C411850016F736 /* gyInputWindowsPhone.cpp in Sources */,
-				21F416FF16C411850016F736 /* gyInputWindowsStore.cpp in Sources */,
 				21F4170016C411850016F736 /* gyMainCore.cpp in Sources */,
 				21F4170516C411850016F736 /* gyRenderer.cpp in Sources */,
 				21F4170A16C411850016F736 /* gyRendererMacOSX.cpp in Sources */,
@@ -299,6 +275,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(SRCROOT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -332,6 +309,7 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(SRCROOT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

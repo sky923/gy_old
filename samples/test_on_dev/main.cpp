@@ -68,8 +68,10 @@ private:
 	shader_t vs;
 	shader_t fs;
 public:
+    
 	virtual int onPrepare()
 	{
+        /*
 		vb = GY_INVALID_VERTEX_BUFFER_ID;
 
 		setClearColor(0xFF113355);
@@ -125,13 +127,14 @@ public:
 		fs = createShaderFromFile(p, GY_SHADER_FRAGMENT, "../../GLES2_Shader.fsh");
 		vb = createVertexBuffer(gCubeVertexData, sizeof(gCubeVertexData), vf, 0);
 #endif
-
+*/
 		return Success;
 	}
 
 	float _rotation;
 	mat3x3 _normalMatrix;
 	mat4x4 _modelViewProjectionMatrix;
+    /*
 	virtual int onUpdate()
 	{
 		renderer_t rid = gy::getCurrentRendererID();
@@ -178,4 +181,5 @@ public:
 
 		return Success;
 	}
+    */
 } MainObject;
