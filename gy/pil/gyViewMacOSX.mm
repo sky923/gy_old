@@ -146,13 +146,15 @@ namespace gy
 		return Success;
 		 */
 	}
-	
-	int initializeDefaultView()
+
+    int defaultInitializeView()
 	{
+		view_t vid = gy::createView("gy", 1280, 720);
+		gy::showView(vid);
 		return Success;
 	}
-
-	int initializeDefaultApplication()
+    
+	int defaultInitializeApplication()
 	{
 		pool = [[NSAutoreleasePool alloc] init];
 		
@@ -180,8 +182,22 @@ namespace gy
 		
 		return Success;
 	}
+    
+    int defaultRendererUpdate()
+	{
+		gy::r3::clear();
+		gy::r3::begin();
+		gy::r3::end();
+		gy::r3::flush();
+		return Success;
+	}
+    
+    int defaultApplicationUpdate()
+	{
+		return Success;
+	}
 	
-	int applicationRun()
+	int defaultExecuteApplication()
 	{
 		if (pool == nil || gyApplication == nil)
 			return Failed;
@@ -191,6 +207,13 @@ namespace gy
 
 		return Success;
 	}
+    
+    
+	int defaultFinalizeApplication()
+	{
+		return Success;
+	}
+
 }
 
 #endif
