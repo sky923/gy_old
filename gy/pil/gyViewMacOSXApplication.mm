@@ -8,6 +8,7 @@
 
 #include "gyViewMacOSXApplication.h"
 #include "gyView.h"
+#include "gyMainCore.h"
 
 #if defined(__GY_OS_ENABLED_MACOSX__)
 
@@ -27,6 +28,9 @@
 {
 }
 -(void) windowDidResize:(NSNotification *)aNotification
+{
+}
+-(void) applicationDidFinishLaunching:(NSNotification *)aNotification
 {
 }
 -(BOOL) applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender
@@ -58,6 +62,10 @@
 {
 	[self finishLaunching];
     _running = YES;
+    
+    // prepare (after creating a window)
+    gy::type::default_callback_t applicationPrepare = gy::getCallback(gy::type::__cb::A_APPLICATION_PREPARE);
+    if (applicationPrepare != NULL) applicationPrepare();
 	
     NSEvent* event;
     do
@@ -67,11 +75,25 @@
         if (event == nil)
 		{
             // LoopFunc 필요한 함수를 호출하세요.
+            gy::type::default_callback_t applicationUpdate = gy::getCallback(gy::type::__cb::A_APPLICATION_UPDATER);
+            if (applicationUpdate != NULL)
+            {
+                if (applicationUpdate() == Failed)
+                    return;
+            }
+            else
+            {
+                assert(false);
+                return;
+            }
         }
 		else
 		{
             [self sendEvent:event];
         }
+        
+        gy::type::default_callback_t rendererUpdate = gy::getCallback(gy::type::__cb::A_RENDERER_UPDATER);
+        if (rendererUpdate != NULL) rendererUpdate();
 		
     } while ([self isRunning]);
 }
@@ -79,6 +101,8 @@
 -(void) terminate:(id)sender
 {
 	_running = NO;
+    
+    gy::defaultFinalizeApplication();
 }
 
 @end

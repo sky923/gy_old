@@ -24,6 +24,7 @@
 -(void) windowShouldClose:(id)sender;
 -(void) windowWillClose:(NSNotification *)aNotification;
 -(void) windowDidResize:(NSNotification *)aNotification;
+-(void) applicationDidFinishLaunching:(NSNotification *)aNotification;
 -(BOOL) applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender;
 -(void) sendEvent:(NSEvent *)theEvent;
 -(void) run;

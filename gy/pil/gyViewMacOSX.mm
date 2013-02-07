@@ -74,6 +74,10 @@ namespace gy
 		[newWindow autorelease];
 		
 		setMainView(newWindow);
+        
+        // initialize renderer here
+        gy::r3::createRenderer(newWindow, rect.size.width, rect.size.height);
+        gy::r3::setClearColor(0xFF0000FF);
 		
 		return newWindow;
 	}
